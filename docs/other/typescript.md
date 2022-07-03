@@ -8,7 +8,7 @@ BlockJS is designed with TypeScript support in mind. Adding TypeScript to BlockJ
 
 ## Adding TypeScript to BlockJS
 
-If you haven't already setup BlockJS, you can find how to do so in the [quickstart guide](/docs/quickstart/env_setup). Otherwise, in your `scripts` folder, create a `tsconfig.json` file.
+If you haven't already setup BlockJS, you can find how to do so in the [quickstart guide](/quickstart/env_setup). Otherwise, in your `scripts` folder, create a `tsconfig.json` file.
 
 ### Configuring TypeScript
 
