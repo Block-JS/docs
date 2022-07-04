@@ -81,7 +81,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Violet Hayes, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Violet Hayes. Licensed under the MIT license. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
