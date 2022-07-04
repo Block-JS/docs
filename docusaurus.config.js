@@ -7,14 +7,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'BlockJS',
   tagline: 'Use JavaScript to interact with Minecraft',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://block-js.github.io',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'blockjs',
-  projectName: 'docs',
+  organizationName: 'block-js',
+  projectName: 'documentation',
+
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'en',
@@ -29,7 +31,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://block-js.github.io/docs/',
+            'https://block-js.github.io/documentation/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,7 +76,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Block-JS',
               },
             ],
           },
