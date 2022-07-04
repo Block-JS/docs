@@ -8,7 +8,7 @@ const config = {
   title: 'BlockJS',
   tagline: 'Use JavaScript to interact with Minecraft',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Block-JS/docs',
+            'https://block-js.github.io/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
